@@ -2,6 +2,6 @@ package logging
 
 import "fmt"
 
-func Log(message string) {
+func LogV2(message string) {
 	fmt.Printf("Log: %s", message)
 }

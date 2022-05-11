@@ -2,6 +2,6 @@ package telemetry
 
 import "fmt"
 
-func Trace(message string) {
+func TraceV2(message string) {
 	fmt.Printf("Log: %s", message)
 }
